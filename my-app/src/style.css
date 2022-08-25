@@ -1,0 +1,31 @@
+.App {
+    background-color: #eeeeee;
+    height: 100vh;
+    margin:auto;
+    text-align: center;
+    padding: 10px;
+    display:flex;
+}
+.container{
+    background-color: #fff;
+    height:80vh;
+    width:50vw;
+    max-width:350px;
+    margin:auto;
+    border:1px solid #ccc;
+    border-radius: 10px;
+    padding:16px;
+}
+.container>.line{
+    margin:16px 0px;
+}
+.container>h1{
+    color:blue;
+}
+.list-item{
+    padding:16px;
+    margin:8px;
+    background-color: aquamarine;
+    border:1px solid red;
+    border-radius: 10px;
+}
